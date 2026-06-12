@@ -30,7 +30,7 @@ export default function Home() {
         </h1>
 
         <h2 className="mt-6 text-3xl font-bold text-cyan-400 md:text-5xl">
-          Java Full Stack Developer Fresher
+        Aspiring Java Full Stack Developer
         </h2>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">

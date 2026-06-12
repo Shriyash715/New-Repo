@@ -7,9 +7,6 @@ export default function Navbar() {
         </div>
 
         <nav className="flex gap-6 text-sm text-white/70">
-          <a href="#experience" className="hover:text-white">
-            Experience
-          </a>
           <a href="#projects" className="hover:text-white">
             Projects
           </a>
