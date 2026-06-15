@@ -34,11 +34,12 @@ export default function Home() {
         </h2>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
-          Passionate Java Full Stack Developer with hands-on experience
-          building web applications using Java, Spring Boot, MySQL,
-          React, HTML, CSS, and JavaScript. Developed projects including
-          a Bank Management System and Study Forum application to gain
-          practical full stack development experience.
+          Java Full Stack Developer with strong knowledge of Core Java, JDBC, Spring Boot,
+Hibernate, MySQL, React.js, HTML, CSS, and JavaScript. Developed full-stack web
+applications and REST APIs using Spring Boot, React.js, and MySQL through academic and
+personal projects. Skilled in OOP concepts, database management, and problem-solving.
+Passionate about building scalable applications and eager to contribute to a dynamic
+software development team.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
@@ -157,11 +158,11 @@ export default function Home() {
       >
         <div className="rounded-3xl border border-white/10 p-8">
           <h2 className="text-3xl font-semibold">
-            Contact
+            Contact Information
           </h2>
 
           <p className="mt-4 text-white/70">
-            Pune, Maharashtra
+            Pune, Maharashtra, India
           </p>
 
           <p className="text-white/70">
@@ -169,7 +170,7 @@ export default function Home() {
           </p>
 
           <p className="text-white/70">
-            +91 XXXXX XXXXX
+            +91 9665811404
           </p>
         </div>
       </section>
