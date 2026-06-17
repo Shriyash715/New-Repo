@@ -1,6 +1,6 @@
 
 import Navbar from "@/components/Navbar";
-
+import { FaGraduationCap, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 export default function Home() {
   const skills = [
     "Java",
@@ -136,12 +136,15 @@ software development team.
 
       {/* Education */}
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <h2 className="text-4xl font-bold">Education</h2>
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+  Education
+</h2>
 
-        <div className="mt-8 rounded-3xl border border-white/10 p-6">
-          <h3 className="text-xl font-semibold">
-            Bachelor of Technology (B.Tech)
-          </h3>
+       <div className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]">
+          <h3 className="flex items-center gap-3 text-xl font-semibold">
+  <FaGraduationCap className="text-cyan-400" />
+  Bachelor of Technology (B.Tech)
+</h3>
 
           <p className="mt-2 text-white/70">
             Punyashlok Ahilyadevi Holkar Solapur University, Solapur.
@@ -158,24 +161,32 @@ software development team.
         id="contact"
         className="mx-auto max-w-6xl px-6 py-20"
       >
-        <div className="rounded-3xl border border-white/10 p-8">
-          <h2 className="text-3xl font-semibold">
+       <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparen">
             Contact Information
           </h2>
 
-          <p className="text-white/70">
-            tadshriyash6@gmail.com
-          </p>
+<div className="mt-6 space-y-4 text-white/80">
+  <p className="flex items-center gap-3">
+    <FaEnvelope className="text-cyan-400" />
+    tadshriyash6@gmail.com
+  </p>
 
-          <p className="text-white/70">
-            +91 9665811404
-          </p>
+  <p className="flex items-center gap-3">
+    <FaPhone className="text-cyan-400" />
+    +91 9665811404
+  </p>
 
-           <p className="mt-4 text-white/70">
-            Pune, Maharashtra, India
-          </p>
+  <p className="flex items-center gap-3 hover:text-cyan-400 transition-colors">
+    <FaMapMarkerAlt className="text-cyan-400" />
+    Pune, Maharashtra, India
+  </p>
+</div>
         </div>
       </section>
+      <footer className="border-t border-white/10 py-8 text-center text-white/50">
+  © 2026 Shriyash Tad • Java Full Stack Developer
+</footer>
     </main>
   );
 }
