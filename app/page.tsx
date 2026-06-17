@@ -16,7 +16,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-black text-white">
+   <main className="min-h-screen bg-gradient-to-br from-slate-950 via-black to-slate-900 text-white">
       <Navbar />
 
       {/* Hero Section */}
@@ -72,13 +72,13 @@ software development team.
 
       {/* Skills */}
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <h2 className="text-4xl font-bold">Skills</h2>
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Skills</h2>
 
         <div className="mt-8 flex flex-wrap gap-4">
           {skills.map((skill) => (
             <span
               key={skill}
-              className="rounded-full border border-white/10 px-4 py-2"
+              className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-2 transition-all duration-300 hover:scale-105 hover:border-cyan-400"
             >
               {skill}
             </span>
@@ -94,7 +94,7 @@ software development team.
         <h2 className="text-4xl font-bold">Projects</h2>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
-          <div className="rounded-3xl border border-cyan-500/20 p-6">
+          <div className="rounded-3xl border border-cyan-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-2xl">
             <h3 className="text-2xl font-semibold">
               Bank Management System
             </h3>
@@ -112,7 +112,7 @@ software development team.
             </ul>
           </div>
 
-          <div className="rounded-3xl border border-purple-500/20 p-6">
+          <div className="rounded-3xl border border-purple-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-purple-400 hover:shadow-2xl">
             <h3 className="text-2xl font-semibold">
               Study Forum
             </h3>
