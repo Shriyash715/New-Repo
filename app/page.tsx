@@ -26,7 +26,9 @@ export default function Home() {
         </div>
 
         <h1 className="text-5xl font-bold md:text-7xl">
-          Shriyash Tad
+         <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-bold">
+  Shriyash Tad
+</span>
         </h1>
 
         <h2 className="mt-6 text-3xl font-bold text-cyan-400 md:text-5xl">
@@ -71,7 +73,7 @@ software development team.
       </section>
 
       {/* Skills */}
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      <section className="mx-auto max-w-6xl px-6 py-12">
         <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Skills</h2>
 
         <div className="mt-8 flex flex-wrap gap-4">
@@ -94,7 +96,7 @@ software development team.
         <h2 className="text-4xl font-bold">Projects</h2>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
-          <div className="rounded-3xl border border-cyan-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-2xl">
+          <div className="rounded-3xl border border-cyan-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]">
             <h3 className="text-2xl font-semibold">
               Bank Management System
             </h3>
@@ -112,7 +114,7 @@ software development team.
             </ul>
           </div>
 
-          <div className="rounded-3xl border border-purple-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-purple-400 hover:shadow-2xl">
+          <div className="rounded-3xl border border-purple-500/20 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-purple-400 hover:shadow-[0_0_30px_rgba(168,85,247,0.25)]">
             <h3 className="text-2xl font-semibold">
               Study Forum
             </h3>
@@ -161,16 +163,16 @@ software development team.
             Contact Information
           </h2>
 
-          <p className="mt-4 text-white/70">
-            Pune, Maharashtra, India
-          </p>
-
           <p className="text-white/70">
             tadshriyash6@gmail.com
           </p>
 
           <p className="text-white/70">
             +91 9665811404
+          </p>
+
+           <p className="mt-4 text-white/70">
+            Pune, Maharashtra, India
           </p>
         </div>
       </section>
